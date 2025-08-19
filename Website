@@ -1,34 +1,60 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Qantas Virtual</title>
-  </head>
-  <body style="font-family: Arial, sans-serif; margin: 0;">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qantas Virtual</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen w-full bg-gray-900 text-gray-800">
+  <!-- Background Image -->
+  <div class="absolute inset-0">
+    <img src="your-background.jpg" alt="Qantas Aircraft"
+         class="w-full h-full object-cover">
+  </div>
 
-    <!-- Navbar -->
-    <div style="background-color: #e40000; padding: 15px; color: white;">
-      <h1 style="margin: 0;">Qantas Virtual</h1>
-      <a href="#about" style="color: white; margin-right: 15px;">About</a>
-      <a href="#join" style="color: white;">Join</a>
+  <!-- Content Wrapper -->
+  <div class="relative z-10 flex justify-between items-center px-16 h-screen">
+    
+    <!-- About Us Card -->
+    <div class="bg-white p-8 rounded-2xl shadow-xl max-w-lg">
+      <h2 class="text-4xl font-bold mb-4">About <span class="text-red-600">Us</span></h2>
+      <p class="mb-4">
+        Qantas Virtual is the <span class="text-red-600 font-semibold">leading</span> Australian airline 
+        in Project Flight, built by passionate aviation enthusiasts and developers. 
+        We aim to provide a <span class="text-red-600">professional, enjoyable, and community-driven</span> 
+        experience for pilots of all skill levels.
+      </p>
+      <p class="mb-4">
+        Our airline features <span class="font-semibold">structured roles</span>, 
+        a <span class="font-semibold">diverse fleet</span>, regular giveaways, 
+        and a supportive environment that helps members grow and thrive. 
+        From regional hops to long-haul flights, every journey is an opportunity 
+        to be part of something bigger.
+      </p>
+      <p class="italic">The sun never sets on Qantas Virtual — join us and take flight.</p>
     </div>
 
-    <!-- Hero Section -->
-    <div style="padding: 60px; text-align: center; background: url('https://upload.wikimedia.org/wikipedia/commons/5/54/Qantas_Boeing_787-9_Dreamliner.jpg') no-repeat center/cover; color: white;">
-      <h2>Fly the Roo.</h2>
-      <p>Experience a modern Virtual Airline for flight sim.</p>
-      <a href="https://discord.gg/yourinvite" style="background:white; color:#e40000; padding:10px 20px; border-radius:8px; text-decoration:none;">Join Discord</a>
+    <!-- What We Offer Card -->
+    <div class="bg-white p-8 rounded-2xl shadow-xl max-w-lg">
+      <h2 class="text-4xl font-bold mb-4">What We <span class="text-red-600">Offer</span></h2>
+      <ul class="space-y-2 text-lg mb-6">
+        <li>✅ Professional and Welcoming staff and members</li>
+        <li>✅ Welcoming and Gentle Environment</li>
+        <li>✅ Well Built Servers</li>
+        <li>✅ Robux Paid Flights</li>
+        <li>✅ Hard Working Pilots</li>
+        <li>✅ Long Haul Medium Haul and Short Haul Ranges</li>
+        <li>✅ Easy To Apply</li>
+        <li>✅ Easy To Ask For Help</li>
+        <li>✅ 480+ Flights By Our Pilots</li>
+        <li>✅ 100+ Members</li>
+      </ul>
+      <a href="#join" 
+         class="inline-block bg-red-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 transition">
+        Join Now!
+      </a>
     </div>
-
-    <!-- About -->
-    <div id="about" style="padding: 40px;">
-      <h2>About Us</h2>
-      <p>Qantas Virtual is a community-driven virtual airline offering contracts, leaderboards, and events for flight simulation pilots.</p>
-    </div>
-
-    <!-- Footer -->
-    <div style="background-color: #333; color: white; text-align: center; padding: 20px;">
-      © 2025 Qantas Virtual
-    </div>
-
-  </body>
+  </div>
+</body>
 </html>
