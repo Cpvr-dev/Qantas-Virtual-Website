@@ -9,7 +9,7 @@
 <body class="h-screen w-full bg-gray-900 text-gray-800">
   <!-- Background Image -->
   <div class="absolute inset-0">
-    <img src="your-background.jpg" alt="Qantas Aircraft"
+    <img src="https://cdn.discordapp.com/attachments/1349656750004899901/1349686055858864128/1264439818_6349094071_1740982094692.png" alt="Qantas Aircraft"
          class="w-full h-full object-cover">
   </div>
 
